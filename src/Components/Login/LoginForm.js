@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Input from "../Forms/Input";
 import Button from "../Forms/Button";
-import useForm from "../../Hooks/UseForm";
+import useForm from "../../Hooks/useForm";
 import { useContext } from "react";
 import { UserContext } from "../../userContext";
 import Error from "../Helper/Error";
