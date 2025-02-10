@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Input from "../Forms/Input";
-import Button from "../Forms/Button";
-import useForm from "../../Hooks/useForm";
+import Input from "../Forms/Input.jsx";
+import Button from "../Forms/Button.jsx";
+import useForm from "../../Hooks/useForm.jsx";
 import { useContext } from "react";
-import { UserContext } from "../../userContext";
-import Error from "../Helper/Error";
+import { UserContext } from "../../userContext.jsx";
+import Error from "../Helper/Error.jsx";
 import styles from "./LoginForm.module.css";
 import stylesBtn from "../Forms/Button.module.css";
 
